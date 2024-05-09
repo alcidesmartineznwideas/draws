@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T21:03:39.583Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.3.1" etag="aNohtjhGDbs4aCLRR1z0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T21:19:31.734Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="j5F0Z-w2P2CzeUVr_oNA" version="24.3.1" type="github">
   <diagram name="Página-1" id="9Af3QKaoHJkYzy4M5rfv">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" edge="1" parent="1" source="ZaPWbawTYhMRxVfuRRdw-1" target="ZaPWbawTYhMRxVfuRRdw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-5" value="AWS HOOK listens to change in specif branchs (staging or main)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZaPWbawTYhMRxVfuRRdw-3">
+          <mxGeometry x="0.075" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.bitbucket_code_source;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="42.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-2" value="AWS Codepipeline" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codepipeline;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="310" width="67.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Source code of Loyal plan API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-6" value="AWS Codebuild" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codebuild;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="343" y="505" width="76.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" edge="1" parent="1" source="ZaPWbawTYhMRxVfuRRdw-2" target="ZaPWbawTYhMRxVfuRRdw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-8" value="Codepipeline contains steps to build and deploy app" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZaPWbawTYhMRxVfuRRdw-7">
+          <mxGeometry x="-0.125" relative="1" as="geometry">
+            <mxPoint x="194" y="-90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-9" value="Codebuild run command to build loay plan app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="530" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" edge="1" parent="1" source="ZaPWbawTYhMRxVfuRRdw-6" target="ZaPWbawTYhMRxVfuRRdw-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="381.25" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-17" value="Deploy build app to aws beanstalk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZaPWbawTYhMRxVfuRRdw-14">
+          <mxGeometry x="0.2049" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-16" value="AWS Beanstalk" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="790" width="67.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ZaPWbawTYhMRxVfuRRdw-18" value="It run the compiled application and&amp;nbsp;&lt;div&gt;apply healthcheck to validate if the application is running correctly&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="840" width="370" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
